@@ -1,0 +1,30 @@
+I'll explain the key technologies used in building this TODO list application:
+
+Frontend:
+
+React with TypeScript - For building the user interface with type safety
+TanStack Query (React Query) - For efficient server state management and API calls
+Tailwind CSS with shadcn/ui - For styling and pre-built components
+Wouter - For lightweight client-side routing
+React Hook Form - For form handling and validation
+Canvas Confetti - For celebration animations
+Lucide React - For modern icons
+Backend:
+
+Node.js with Express - For the server implementation
+In-memory Storage - For data persistence (using MemStorage class)
+Zod - For runtime type validation and schema definition
+Drizzle ORM - For database schema definition (though currently using in-memory storage)
+Development Tools:
+
+Vite - For fast development and optimized production builds
+TypeScript - For type safety across the entire application
+ESBuild - For efficient JavaScript/TypeScript bundling
+The application follows modern practices like:
+
+Component-based architecture
+Custom hooks for reusable logic
+Real-time state updates
+Responsive design
+Dark mode support
+Type-safe development
